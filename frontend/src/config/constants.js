@@ -1,4 +1,4 @@
-const DEFAULT_LINK = "http://localhost:5001/api/"
+const DEFAULT_LINK = "https://backend-durfqkbgsq-as.a.run.app/api/"
 
 export const GET_ALL_USERS = DEFAULT_LINK + "users/"
 export const DELETE_USER = DEFAULT_LINK + "users/"

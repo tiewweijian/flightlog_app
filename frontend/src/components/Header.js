@@ -31,8 +31,13 @@ function Header() {
   });
 
   function handleCreateButton() {
-    console.log(isCreateFlightModalOpen)
-    setIsCreateFlightModalOpen(true)
+
+    if (!token) {
+      alert("Only logged in users can create flight log data")
+    } else {
+      console.log(isCreateFlightModalOpen)
+      setIsCreateFlightModalOpen(true)
+    }
   }
 
   function handleProfileClick() {
@@ -121,7 +126,7 @@ function Header() {
               >
                 <Avatar
                   className="align-middle"
-                  src="https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82"
+                  src="https://cdn.icon-icons.com/icons2/2468/PNG/512/user_icon_149329.png"
                   alt=""
                   aria-hidden="true"
                 />

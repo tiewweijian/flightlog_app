@@ -76,10 +76,19 @@ const CreateFlightLogModal = ({ isModalOpen, setModalStatus }) => {
       }
 
       closeModal();
+      resetFields()
     } catch (error) {
       console.error('Error creating flight log:', error);
     }
   };
+
+  const resetFields = () => {
+    setTailNumber("")
+    setFlightId("")
+    setDuration("")
+    setStartDate()
+    setEndDate()
+  }
 
   const closeModal = () => {
     setIsCreateFlightModalOpen(false);
