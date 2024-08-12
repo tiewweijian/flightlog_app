@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flightlog_app/precache-manifest.8a114b57745f4cec5ea296f6fb134450.js"
+  "/flightlog_app/precache-manifest.4baa76961d56066a69aaa10a92bbef4c.js"
 );
 
 self.addEventListener('message', (event) => {
