@@ -1,55 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "895e8dc53cc3f28d9a337c81636af036",
+    "revision": "6afbde87ec99fe36e5def2b21c01b14a",
     "url": "/flightlog_app/index.html"
   },
   {
-    "revision": "9e1fb3860f390bcc7d50",
-    "url": "/flightlog_app/static/css/3.1d8bbda7.chunk.css"
+    "revision": "b8732433982acd179ab1",
+    "url": "/flightlog_app/static/css/2.3495f7bb.chunk.css"
   },
   {
-    "revision": "02f9c07e39e97b08691c",
+    "revision": "b76c9f4c8e01c0ea14f3",
     "url": "/flightlog_app/static/css/main.b4bd7435.chunk.css"
   },
   {
-    "revision": "8ae923921ae24b95d647",
-    "url": "/flightlog_app/static/js/2.5292e820.chunk.js"
+    "revision": "b8732433982acd179ab1",
+    "url": "/flightlog_app/static/js/2.d89d0b15.chunk.js"
   },
   {
-    "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/flightlog_app/static/js/2.5292e820.chunk.js.LICENSE.txt"
+    "revision": "beb7c926f5853b248fe5228c4fd637b0",
+    "url": "/flightlog_app/static/js/2.d89d0b15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e1fb3860f390bcc7d50",
-    "url": "/flightlog_app/static/js/3.c5767b0a.chunk.js"
+    "revision": "4dd8e00e26022cfa23dc",
+    "url": "/flightlog_app/static/js/3.a8077bb7.chunk.js"
   },
   {
-    "revision": "89fb4e07829a2cafa53c504a68bec35f",
-    "url": "/flightlog_app/static/js/3.c5767b0a.chunk.js.LICENSE.txt"
+    "revision": "ec2a5d783049764f43c0",
+    "url": "/flightlog_app/static/js/4.4262b9a7.chunk.js"
   },
   {
-    "revision": "063187b88ce08cf5a38b",
-    "url": "/flightlog_app/static/js/4.5ac4b306.chunk.js"
+    "revision": "b76c9f4c8e01c0ea14f3",
+    "url": "/flightlog_app/static/js/main.f08ba310.chunk.js"
   },
   {
-    "revision": "fbdf8689daf49afa0fbb",
-    "url": "/flightlog_app/static/js/5.39803bf1.chunk.js"
-  },
-  {
-    "revision": "4a001e7b0de356877f62",
-    "url": "/flightlog_app/static/js/6.17c7d39f.chunk.js"
-  },
-  {
-    "revision": "9ca462f0ef3566cf6ae5",
-    "url": "/flightlog_app/static/js/7.c4a39210.chunk.js"
-  },
-  {
-    "revision": "02f9c07e39e97b08691c",
-    "url": "/flightlog_app/static/js/main.d1b52805.chunk.js"
-  },
-  {
-    "revision": "df5c80350b1243c8700d",
-    "url": "/flightlog_app/static/js/runtime-main.99caabf6.js"
+    "revision": "80731ef6b3af936c5335",
+    "url": "/flightlog_app/static/js/runtime-main.f9442675.js"
   },
   {
     "revision": "b9c73089fd14dcb97bf597665f575ac1",
