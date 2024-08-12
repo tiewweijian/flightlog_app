@@ -38,7 +38,7 @@ function Layout() {
                   />
                 ) : null
               })}
-              <Redirect exact from="/" to="/dashboard" />
+              <Route exact path="/" render={() => <Redirect to="/flightlog_app" />} />
               <Route component={Page404} />
             </Switch>
           </Suspense>

@@ -14,7 +14,7 @@ const Dashboard = lazy(() => import('../pages/Dashboard'))
  */
 const routes = [
   {
-    path: '/dashboard', // the url
+    path: '/flightlog_app', // the url
     component: Dashboard, // view rendered
   },
 ]
