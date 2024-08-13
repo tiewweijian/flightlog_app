@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a2d617bb209df6a91d9480c492c13a6",
+    "revision": "0a7688392be1114b4bc29987a5164a7a",
     "url": "/flightlog_app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flightlog_app/static/css/2.3495f7bb.chunk.css"
   },
   {
-    "revision": "41767c5073a9f029c13b",
+    "revision": "cd4b5ad73362e270f9e7",
     "url": "/flightlog_app/static/css/main.b4bd7435.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flightlog_app/static/js/4.4262b9a7.chunk.js"
   },
   {
-    "revision": "41767c5073a9f029c13b",
-    "url": "/flightlog_app/static/js/main.38dbee7d.chunk.js"
+    "revision": "cd4b5ad73362e270f9e7",
+    "url": "/flightlog_app/static/js/main.65e02435.chunk.js"
   },
   {
     "revision": "9190a216b3b4bbaeb511",
