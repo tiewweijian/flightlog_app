@@ -54,7 +54,6 @@ function Dashboard() {
       setData(tableData.slice((page - 1) * resultsPerPage, page * resultsPerPage))
     } else {
       const filteredData = tableData.filter(item => 
-        item.tailNumber.toLowerCase().includes(searchText.toLowerCase()) ||
         item.flightID.toLowerCase().includes(searchText.toLowerCase())
       );
       setData(filteredData.slice((page - 1) * resultsPerPage, page * resultsPerPage))
