@@ -12,7 +12,7 @@ const Modals = ({isModalOpen, setModalStatus}) => {
   const [isIncorrectCreds, setIsIncorrectCreds] = useState(false)
   const { token, storeToken, removeToken } = useContext(UserContext);
   const { isLoginModalOpen, setIsLoginModalOpen, tableData, setTableData, isAdmin, setIsAdmin } = useContext(UserContext)
-
+  const [ isLoading, setIsLoading ] = useState(false)
 
   const handleClick = () => {
     setModalStatus(!isModalOpen)
@@ -23,6 +23,7 @@ const Modals = ({isModalOpen, setModalStatus}) => {
 
     try {
       // Make Axios request with form data
+      setIsLoading(true)
       const response = await axios.post(LOGIN_USER, {
         username,
         password,
@@ -44,6 +45,7 @@ const Modals = ({isModalOpen, setModalStatus}) => {
       } catch (error) {
         console.log(error)
       }
+      setIsLoading(false)
       closeModal()
 
       try {
@@ -61,6 +63,7 @@ const Modals = ({isModalOpen, setModalStatus}) => {
       }
       closeModal()
     } catch (error) {
+      setIsLoading(false)
       setIsIncorrectCreds(true)
       console.error('Error submitting form:', error);
     }
@@ -122,7 +125,8 @@ const Modals = ({isModalOpen, setModalStatus}) => {
 
         <ModalFooter>
         <div>
-          <Button type="submit">Login</Button>
+          {isLoading ? <Button disabled>Logging In</Button> : <Button type="submit">Login</Button>}
+          
         </div>
       </ModalFooter>
       </form>
