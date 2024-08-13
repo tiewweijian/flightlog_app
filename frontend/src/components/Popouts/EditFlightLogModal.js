@@ -111,6 +111,16 @@ const EditFlightLogModal = () => {
               />
             </Label>
           </div>
+          <div className="hidden sm:block">
+            <Label>
+              <span>Flight ID</span>
+              <Input
+                className="mt-1"
+                value={flightId}
+                onChange={(e) => setFlightId(e.target.value)}
+              />
+            </Label>
+          </div>
           <div>
             <Label>
               <span>Takeoff</span>
