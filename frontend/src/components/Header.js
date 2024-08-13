@@ -87,7 +87,7 @@ function Header() {
               </div>
               <Input
                 className="pl-8 text-gray-700"
-                placeholder="Search for projects"
+                placeholder="Search Flight IDs"
                 aria-label="Search"
                 onChange={(e) => setSearchText(e.target.value)}
               />

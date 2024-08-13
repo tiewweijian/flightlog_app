@@ -13,6 +13,8 @@
 1. You may view the demo of this website [here](https://tiewweijian.github.io/flightlog_app/)
 2. The deployed application is supported by Github Pages, Google Cloud and MongoDB
 
+NOTE: The first few API calls might be slow as there is low traffic to backend, the backend might turn to idle.  
+
 
 #### Local  (Backend)
 1. Backend folder located in /backend 
