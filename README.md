@@ -21,7 +21,7 @@ NOTE: The first few API calls might be slow as there is low traffic to backend, 
 2. In `.env` in the root folder of /backend, ensure that all database strings are changed to `localhost`
 3. Run `npm i` to install all dependencies 
 4. Run `npm start` 
-
+5. To get an admin account, run `API_LINK/api/users/createAdmin` (only for development purposes)
 
 #### Local (Frontend)
 1. Frontend folder located in /frontend
@@ -30,5 +30,8 @@ NOTE: The first few API calls might be slow as there is low traffic to backend, 
 4. Run `npm run start`. If encounter issue, run `npm run start:legacy`
 
 
+#### AOB
+- Only `admin` account can delete other user accounts, and they cannot delete their own account.
+- Other created accounts will not see admin controls. 
 
 Any issues with running the application, feel free to contact me at tiewweijian@u.nus.edu. 
